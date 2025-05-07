@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+      background: #f9f9f9;
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .main-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .subtitle {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 28px;
+      text-align: center;
+      max-width: 320px;
+    }
+    .socials {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+    }
+    .socials a {
+      text-decoration: none;
+      color: #333;
+      font-size: 2rem;
+      transition: color 0.2s;
+    }
+    .socials a:hover {
+      color: #0077b5;
+    }
+  </style>
+  <!-- Icons from Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <img src="https://placehold.co/100x100" alt="Avatar" class="avatar">
+  <div class="main-title">Leon Schröder</div>
+  <div class="subtitle">
+    Student at the JMU Wue.
+    Interested in all things low level.
+  </div>
+  <div class="socials">
+    <a href="https://bsky.app/profile/x0sig.bsky.social" target="_blank" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+    <a href="https://linkedin.com/in/leon-schroeder-b45a0a326" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/x0sig" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  </div>
+</body>
+</html>
+
